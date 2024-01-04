@@ -27,7 +27,7 @@ def main(cfg):
     
     # Model Hyperparameters
     log.info(f"configuration: \n {OmegaConf.to_yaml(cfg)}")  # Just for printing the config
-    hparams = cfg.hparam_experiment
+    hparams = cfg.hyperparams_experiments   # Access the hyperparameters from the config file (default_config.yaml -> exp, in hyperparams_experiments folder)
 
     torch.manual_seed(hparams["seed"])  # Set seed for generating random numbers (for reproducibility)
     device = torch.device("cuda" if hparams["cuda"] else "cpu") if torch.cuda.is_available() else "cpu"

@@ -1,2 +1,2 @@
 defaults:
-    - hparam_experiment: exp2
+    - hyperparams_experiments: exp1

@@ -1,0 +1,21 @@
+[2024-01-04 14:20:29,904][__main__][INFO] - configuration: 
+ hyperparams_experiments:
+  dataset_path: ~/datasets
+  cuda: true
+  batch_size: 16
+  x_dim: 784
+  hidden_dim: 200
+  latent_dim: 20
+  learning_rate: 0.001
+  epochs: 2
+  seed: 123
+
+[2024-01-04 14:20:29,967][__main__][INFO] - Start training VAE...
+[2024-01-04 14:20:29,972][__main__][INFO] - 0
+[2024-01-04 14:20:30,386][__main__][INFO] - 100
+[2024-01-04 14:20:30,784][__main__][INFO] - 200
+[2024-01-04 14:20:31,192][__main__][INFO] - 300
+[2024-01-04 14:20:31,589][__main__][INFO] - 400
+[2024-01-04 14:20:31,991][__main__][INFO] - 500
+[2024-01-04 14:20:32,422][__main__][INFO] - 600
+[2024-01-04 14:20:32,845][__main__][INFO] - 700
