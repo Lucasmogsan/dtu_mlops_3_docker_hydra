@@ -1,0 +1,10 @@
+# @package _group_
+dataset_path: "~/datasets"
+cuda: True
+batch_size: 16
+x_dim: 784
+hidden_dim: 200
+latent_dim: 20
+learning_rate: 1e-3
+epochs: 2
+seed: 123
